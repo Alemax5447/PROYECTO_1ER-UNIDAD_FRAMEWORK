@@ -64,7 +64,6 @@ include("includes/header.php"); #Header
       </div>
     </nav>
 
-    
 <div class="container ">
     <div class="row">
 
@@ -80,8 +79,6 @@ include("includes/header.php"); #Header
                 <h5 class="card-title">Pagos</h5>
                 <p class="card-text">Administrar y configuraciones y metodos de pago, ver tu saldos</p>
             </div>
-
-            
             
         </div>
 
@@ -93,9 +90,7 @@ include("includes/header.php"); #Header
             <div class="card-body">
                 <h5 class="card-title">Pedidos</h5>
                 <p class="card-text">Administrar y configuraciones de todos los pedidos </p>
-            </div>
-
-            
+            </div> 
             
         </div>
 
@@ -107,9 +102,7 @@ include("includes/header.php"); #Header
             <div class="card-body">
                 <h5 class="card-title">Seguridad</h5>
                 <p class="card-text">Administrar y configuraciones sobre seguridad</p>
-            </div>
-
-            
+            </div> 
             
         </div>
       
@@ -127,9 +120,6 @@ include("includes/header.php"); #Header
 </div>
 </div>
 
-    
-
-   
 
 <?php 
 include("includes/footer.php"); #Footer

@@ -8,7 +8,10 @@
       $password=$_POST['staticPassword'];
       
         
+ if($email != 'administrador' || $email != 'cliente'){
+        header("Location: error.php");
 
+      }
       if($email == 'administrador')
       {
         if($password == 'asd')
@@ -18,10 +21,7 @@
            header("Location: error.php");
         }
       }
-      if($email != 'administrador' || $email != 'cliente'){
-        header("Location: error.php");
-
-      }
+     
       if($email == 'cliente')
       {
         if($password == '123')

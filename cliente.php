@@ -1,7 +1,4 @@
-
 <?php include("includes/header.php") ?>
-
-
 
 <nav class  = "navbar navbar-dark bg-dark mb-3">
    
@@ -22,12 +19,9 @@
         </ul>    
 
        </div>
-
-   
 </nav>
 
 
- 
 <div class="container">
     <br>
     <div class="row">

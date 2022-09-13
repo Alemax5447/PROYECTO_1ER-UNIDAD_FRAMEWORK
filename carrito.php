@@ -1,7 +1,4 @@
-
 <?php include("includes/header.php") ?>
-
-
 
 <nav class  = "navbar navbar-dark bg-dark mb-3">
    
@@ -24,9 +21,6 @@
 
    
 </nav>
-
-
- 
     <div class="container">
         <div class="row">
             <div class="container">
@@ -36,10 +30,7 @@
                         <div id="contTotal"></div>
                     </div>
                     </div>
-
-               
                 </div>
-          
                     <div class="container">
                         <div class="row">
                               <div class="col-9">
@@ -49,19 +40,9 @@
                         </div>
                       
                     </div>
-                   
-
-        </div>
-           
-            
-           
+        </div>     
         </div>
     </div>
-
-       
-    
-
-
 
 <?php include("includes/footer.php") ?>
     <script>
@@ -114,17 +95,11 @@
                             <a href="#" tabindex="-1" class="btn btn-primary btn-block">Pagar ahora</a>
                         </div> `
             
-            
-            
             var cajasCarrito = document.getElementById("carrito")
             cajasCarrito.innerHTML = carrito
 
             var totalCarrito = document.getElementById("contTotal")
             totalCarrito.innerHTML = contTotal
-
-           
-
-            
     </script>
 
 </html>
