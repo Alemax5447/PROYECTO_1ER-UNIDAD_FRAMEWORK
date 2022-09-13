@@ -15,8 +15,12 @@
         {
             header("Location: admin.php");
         }else{
-          echo 'error';
+           header("Location: error.php");
         }
+      }
+      if($email != 'administrador' || $email != 'cliente'){
+        header("Location: error.php");
+
       }
       if($email == 'cliente')
       {
@@ -24,7 +28,7 @@
         {
             header("Location: cliente.php");
         }else{
-            echo 'error';
+            header("Location: error.php");
         }
       }
 
