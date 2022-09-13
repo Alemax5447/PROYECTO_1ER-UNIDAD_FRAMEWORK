@@ -33,33 +33,23 @@
                 
                 <div class="container">     
                     <div class="col-3">
-                    <div class="card" aria-hidden="true">
-                    <i class="fa-brands fa-apple fa-xl"></i>
-                        <div class="card-body">
-                            <h5 class="card-title ">
-                                  Subtotal de los productos: ${total}
-                            </h5>
-                            <p class="card-text">
-                            Tu pedido es elegible con envío GRATIS Comprueba los productos incluidos en la oferta
-                            Selecciona esta opción al tramitar el pedido.
-                            </p>
-                            <a href="#" tabindex="-1" class="btn btn-primary btn-block">Pagar ahora</a>
-                        </div>
+                        <div id="contTotal"></div>
                     </div>
                     </div>
 
+               
+                </div>
+          
                     <div class="container">
                         <div class="row">
                               <div class="col-9">
+                                <p class="text-title">Productos</p>
                             <div id="carrito"></div>
                         </div>
                         </div>
                       
                     </div>
                    
-               
-                </div>
-          
 
         </div>
            
@@ -110,7 +100,19 @@
 
             });
 
-            var contTotal = ` `
+            var contTotal = `
+                    <div class="card" aria-hidden="true">
+                    <i class="fa-brands fa-apple fa-xl"></i>
+                        <div class="card-body">
+                            <h5 class="card-title ">
+                                  Subtotal de los productos: ${total}
+                            </h5>
+                            <p class="card-text">
+                            Tu pedido es elegible con envío GRATIS Comprueba los productos incluidos en la oferta
+                            Selecciona esta opción al tramitar el pedido.
+                            </p>
+                            <a href="#" tabindex="-1" class="btn btn-primary btn-block">Pagar ahora</a>
+                        </div> `
             
             
             
